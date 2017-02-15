@@ -9,6 +9,7 @@
  */
 /* Common Namespaces */
 /* Base Element Styles */
+@import url('https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css');
 body,
 button,
 a {
@@ -202,13 +203,14 @@ div.searchPanel input.searchTextBox {
   padding: 3px 5px;
   width: 250px;
 }
-
 select.searchDropdown {
     color: #22272a;
     background-color: #0068a3;
     border: 1px solid #22272a !important;
 }
-
+.linkMenuBar {
+  padding-left: 0;
+}
 .topmenuMenuRight .linkMenuBar {
   left: 0;
   margin-left: 846px;
