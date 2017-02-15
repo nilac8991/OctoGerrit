@@ -267,9 +267,6 @@ div.menuBarUserNamePanel {
 .gwt-TabBarItem-selected .gwt-Label {
   color: #4078c0;
 }
-.accountLinkPanel .gwt-Image {
-  display: none;
-}
 .com-google-gerrit-client-change-Message_BinderImpl_GenCss_style-avatar {
   display: none;
 }
