@@ -19,7 +19,7 @@ table td {
 }
 a {
   background: 0 !important;
-  color: #333 !important;
+  color: #0068a3 !important;
 }
 button[type='button'],
 button.gwt-Button,
@@ -107,6 +107,10 @@ table.screenHeader {
 .com-google-gerrit-client-change-ChangeScreen_BinderImpl_GenCss_style-projectSettings img {
   display: none;
 }
+.com-google-gerrit-client-UserPopupPanel_BinderImpl_GenCss_style-panel {
+  background-color: #22272a;
+  color: #A7A1AE;
+}
 div.gerrit-size {
   white-space: nowrap;
 }
@@ -147,8 +151,8 @@ div.gerrit-state-minus-two:before {
   content: '\f165';
 }
 #gerrit_topmenu {
-  background: #f5f5f5;
-  border-bottom: 1px solid #e5e5e5;
+  background: #22272a;
+  border-bottom: 1px solid #22272a;
   padding: 10px 0;
 }
 table.topmenu {
@@ -198,6 +202,13 @@ div.searchPanel input.searchTextBox {
   padding: 3px 5px;
   width: 250px;
 }
+
+select.searchDropdown {
+    color: #22272a;
+    background-color: #0068a3;
+    border: 1px solid #22272a !important;
+}
+
 .topmenuMenuRight .linkMenuBar {
   left: 0;
   margin-left: 846px;
@@ -226,19 +237,17 @@ div.searchPanel input.searchTextBox {
   padding: 0;
 }
 .topmenuMenuLeft a.activeRow {
-  border-bottom: 2px solid #333;
-  color: #333 !important;
+  border-bottom: 2px solid #0654ac;
+  color: #A7A1AE !important;
 }
 div.menuBarUserNamePanel {
   -moz-user-select: none;
   -ms-user-select: none;
   -webkit-appearance: none;
   -webkit-user-select: none;
-  background-color: #eee;
-  background-image: linear-gradient(#fcfcfc, #eee);
-  border: 1px solid #d5d5d5;
+  background-color: #22272a;
   border-radius: 3px;
-  color: #333;
+  color: #A7A1AE;
   cursor: pointer;
   display: inline-block;
   font-weight: bold;
@@ -254,7 +263,7 @@ div.menuBarUserNamePanel {
   padding: 0 !important;
 }
 .gwt-TabBarItem .gwt-Label {
-  color: #333;
+  color: #A7A1AE;
 }
 .gwt-TabBarItem-selected {
   border-bottom: 2px solid #4078c0 !important;
