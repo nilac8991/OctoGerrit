@@ -60,8 +60,6 @@ select option:after {
   padding-left: 10px;
 }
 div.screen {
-  margin: 0 auto;
-  width: 990px;
 }
 table.screenHeader {
   display: block !important;
@@ -317,8 +315,6 @@ div.suggestPopupContent table {
 }
 /* Table Element Styles */
 table.screenHeader {
-  margin: 3px auto 8px auto;
-  width: 990px;
 }
 #change_infoTable .gwt-InlineHyperlink {
   color: #333;
@@ -356,6 +352,11 @@ table.changeTable td.dataCell {
   border-bottom: 1px solid #e5e5e5;
   border-left: 1px solid #e5e5e5;
   border-right: 0;
+  white-space: nowrap;
+}
+.changeTable .dataCell {
+  padding-left: 15px;
+  padding-right: 10px;
 }
 table.changeTable td:last-child {
   border-right: 1px solid #e5e5e5 !important;
